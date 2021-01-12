@@ -16,6 +16,20 @@ public class Fishing {
     Weather[] weather;
     int status; //0-New, 1-Actually, 2-Planned, 3-Ended
 
+    public Fishing(User user, Point start, Timestamp starTime, Point end, Timestamp endTime, Point[] point, Fish[] fish, String note, Photo[] photo, Weather[] weather, int status) {
+        this.user = user;
+        this.start = start;
+        this.starTime = starTime;
+        this.end = end;
+        this.endTime = endTime;
+        this.point = point;
+        this.fish = fish;
+        this.note = note;
+        this.photo = photo;
+        this.weather = weather;
+        this.status = status;
+    }
+
     public User getUser() {
         return user;
     }

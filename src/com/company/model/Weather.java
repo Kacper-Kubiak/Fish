@@ -11,6 +11,16 @@ public class Weather {
     double temperatureWater;
     double pressure;
 
+    public Weather(Timestamp time, String country, String city, double humidity, double temperature, double temperatureWater, double pressure) {
+        this.time = time;
+        this.country = country;
+        this.city = city;
+        this.humidity = humidity;
+        this.temperature = temperature;
+        this.temperatureWater = temperatureWater;
+        this.pressure = pressure;
+    }
+
     public Timestamp getTime() {
         return time;
     }

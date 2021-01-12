@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company.model</OriginalElement>
+  <nodes>
+    <node x="359.0" y="859.0">com.company.model.Fishing</node>
+    <node x="0.0" y="304.0">com.company.model.Weather</node>
+    <node x="345.17857142857144" y="0.0">com.company.model.User</node>
+    <node x="530.0" y="424.5">com.company.model.Fish</node>
+    <node x="288.0" y="436.0">com.company.model.Photo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.model.Fishing" target="com.company.model.User">
+      <point x="44.25" y="-379.5" />
+      <point x="521.25" y="839.0" />
+      <point x="519.5" y="839.0" />
+      <point x="519.5" y="279.0" />
+      <point x="523.6785714285714" y="279.0" />
+      <point x="76.5" y="127.0" />
+    </edge>
+    <edge source="com.company.model.Photo" target="com.company.model.User">
+      <point x="-52.5" y="-115.5" />
+      <point x="340.5" y="279.0" />
+      <point x="370.67857142857144" y="279.0" />
+      <point x="-76.5" y="127.0" />
+    </edge>
+    <edge source="com.company.model.Fishing" target="com.company.model.Weather">
+      <point x="-103.25" y="-379.5" />
+      <point x="373.75" y="839.0" />
+      <point x="67.0" y="839.0" />
+      <point x="-67.0" y="247.5" />
+    </edge>
+    <edge source="com.company.model.Fishing" target="com.company.model.Photo">
+      <point x="-44.25" y="-379.5" />
+      <point x="432.75" y="819.0" />
+      <point x="340.5" y="819.0" />
+      <point x="-52.5" y="115.5" />
+    </edge>
+    <edge source="com.company.model.Fishing" target="com.company.model.Fish">
+      <point x="73.75" y="-379.5" />
+      <point x="550.75" y="829.0" />
+      <point x="593.0" y="829.0" />
+      <point x="-63.0" y="127.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5593431541573494" x="672.3322448730469" y="391.05891418457037" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

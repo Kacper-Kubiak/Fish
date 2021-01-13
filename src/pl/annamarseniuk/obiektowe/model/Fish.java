@@ -1,6 +1,6 @@
-package com.company.model;
+package pl.annamarseniuk.obiektowe.model;
 
-import com.company.enums.FishEnum;
+import pl.annamarseniuk.obiektowe.enums.FishEnum;
 
 public class Fish {
     FishEnum fish;

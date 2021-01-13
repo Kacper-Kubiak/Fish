@@ -1,7 +1,7 @@
-package com.company;
+package pl.annamarseniuk.obiektowe;
 
-import com.company.enums.FishEnum;
-import com.company.model.*;
+import pl.annamarseniuk.obiektowe.enums.FishEnum;
+import pl.annamarseniuk.obiektowe.model.*;
 
 import java.awt.*;
 import java.sql.Timestamp;

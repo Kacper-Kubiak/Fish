@@ -1,4 +1,4 @@
-package com.company.model;
+package pl.annamarseniuk.obiektowe.model;
 
 import java.util.Objects;
 
